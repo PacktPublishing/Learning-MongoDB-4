@@ -1,0 +1,13 @@
+db.<collection>.insertOne({ // document });
+db.<collection>.insertMany([{ // document },{ // document }, etc.]);
+
+
+db.<collection>.replaceOne({<filter>},{ // document }[,{upsert:true}]);
+
+
+db.<collection>.updateOne({<filter>},{<update>}[,{upsert:true}]);
+db.<collection>.updateMany({<filter>},{<update>}[,{upsert:true}]);
+
+
+db.<collection>.deleteOne({<filter>});
+db.<collection>.deletemany({<filter>});
