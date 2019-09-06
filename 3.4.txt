@@ -1,0 +1,5 @@
+conn = new Mongo();
+
+db = conn.getDB("test");
+
+db.clients.insertOne({"name":"Krystal Johnson","city":"New York","country":"UK"});
